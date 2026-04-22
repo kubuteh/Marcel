@@ -1,8 +1,6 @@
 ---
 ---
 
-@import "{{ site.theme }}";
-
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -10,21 +8,3 @@ body {
   color: #125182;
 }
 
-h1, h2, h3 {
-  font-family: Arial, serif;
-  color: #38bdf8;
-}
-
-a {
-  color: #f59e0b;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-code {
-  background: #FFFFFF;
-  padding: 0.15rem 0.35rem;
-  border-radius: 6px;
-}
