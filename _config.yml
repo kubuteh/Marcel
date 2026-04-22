@@ -1,2 +1,8 @@
-title: Ciekawostki o świecie
+title:  Ciekawostki o świecie
 
+minima:
+  nav_pages:
+    - panstwa.md
+    - index.md
+    - ciekawostka-dnia.md
+    - o-nas.md
