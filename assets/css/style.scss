@@ -3,28 +3,80 @@
 
 @import "{{ site.theme }}";
 
+/* Tło i podstawowa typografia */
 body {
-  margin: 0;
+  background-color: #f4fbf6;
+  color: #1f3b2d;
   font-family: Arial, sans-serif;
-  background-color: #00ED00;
-  color: #125182;
 }
 
-h1, h2, h3 {
-  font-family: Arial, serif;
-  color: #38bdf8;
+/* Szerokość głównej kolumny */
+.wrapper {
+  max-width: 980px;
 }
 
-a {
-  color: #f59e0b;
+/* Nagłówek strony */
+.site-header {
+  background-color: #1f6f43;
+  border-top: 6px solid #14532d;
+  border-bottom: 1px solid #cfe8d6;
 }
 
-a:hover {
+.site-title,
+.site-title:visited {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.site-nav .page-link {
+  color: #ffffff;
+  margin-left: 14px;
+  font-weight: 600;
+}
+
+.site-nav .page-link:hover {
+  color: #d8f3dc;
   text-decoration: none;
 }
 
+/* Treść */
+.page-content {
+  padding-top: 2rem;
+}
+
+h1, h2, h3 {
+  color: #14532d;
+}
+
+a {
+  color: #0f766e;
+}
+
+a:hover {
+  color: #115e59;
+  text-decoration: underline;
+}
+
+/* Proste "karty" */
+.box {
+  background: #ffffff;
+  border: 1px solid #d7e8db;
+  border-radius: 12px;
+  padding: 1rem 1.2rem;
+  margin: 1rem 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+/* Stopka */
+.site-footer {
+  background-color: #edf7ef;
+  border-top: 1px solid #cfe8d6;
+  color: #355244;
+}
+
+/* Kod inline */
 code {
-  background: #FFFFFF;
+  background: #eef6f0;
   padding: 0.15rem 0.35rem;
   border-radius: 6px;
 }
