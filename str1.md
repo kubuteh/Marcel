@@ -3,7 +3,7 @@ title: Str 1
 permalink: /str1/
 ---
 
-# Państwa
+# Test
 
 <div class="box">
 <h2>T1</h2>
