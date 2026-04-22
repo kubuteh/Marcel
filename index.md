@@ -2,13 +2,17 @@
 title: Test stylów
 ---
 
-# Strona Główna
+# To działa?
 
-## Witamy na naszej stronie z ciekawostkami geograficznymi!!
+To jest zwykły tekst.
 
-## Spis treści:
+[To jest link](https://github.com)
 
+> To jest cytat.
 
+`To jest kod inline`
 
-***Nie możesz znaleźć ciekawostki o interesującym Ciebie państwie lub regionie?
-Napisz do nas: geociekawe@gmail.com***
+- element 1
+- element 2
+
+<span class="uwaga">To powinno być czerwone i pogrubione.</span>
