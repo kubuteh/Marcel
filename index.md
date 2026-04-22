@@ -1,16 +1,18 @@
-# Strona Główna
+---
+title: Test stylów
+---
 
-## Witamy na naszej stronie z ciekawostkami geograficznymi!!
+# To działa?
 
-## Spis treści:
+To jest zwykły tekst.
 
-[Ciekawostki dnia](https://kubuteh.github.io/Marcel/ciekawostka-dnia.html) - znajdują się codzienne, nowe ciekawostki dotyczące różnych państw i regionów świata, o których na pewno nie słyszeliście!
+[To jest link](https://github.com)
 
-[Państwa](https://kubuteh.github.io/Marcel/panstwa.html) - ciekawostki dotyczące konkretnych państw, które uszegorowane są alfabetycznie pozwalając na łatwe odnalezienie szukanego państwa!
+> To jest cytat.
 
-[O nas](https://kubuteh.github.io/Marcel/o-nas.html) - więcej informacji na temat autorów strony, czyli nas :)
+`To jest kod inline`
 
+- element 1
+- element 2
 
-
-***Nie możesz znaleźć ciekawostki o interesującym Ciebie państwie lub regionie?
-Napisz do nas: geociekawe@gmail.com***
+<span class="uwaga">To powinno być czerwone i pogrubione.</span>
