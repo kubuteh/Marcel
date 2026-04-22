@@ -1,16 +1,22 @@
-# Strona Główna
+---
+title: Strona główna
+---
 
-## Witamy na naszej stronie z ciekawostkami geograficznymi!!
-
-## Spis treści:
-
-[Ciekawostki dnia](https://marcelggg239.github.io/ciekawostka-dnia.html) - znajdują się codzienne, nowe ciekawostki dotyczące różnych państw i regionów świata, o których na pewno nie słyszeliście!
-
-[Państwa](https://marcelggg239.github.io/panstwa.html) - ciekawostki dotyczące konkretnych państw, które uszegorowane są alfabetycznie pozwalając na łatwe odnalezienie szukanego państwa!
-
-[O nas](https://marcelggg239.github.io/o-nas.html) - więcej informacji na temat autorów strony, czyli nas :)
+# Witaj na stronie „Szablon”
 
 
+<div class="box">
+<h2>Co znajdziesz na stronie?</h2>
+<ul>
+  <li><a href="{{ '/str1/' | relative_url }}">Str 1</a></li>
+  <li><a href="{{ '/str2/' | relative_url }}">Str 2</a></li>
+  <li><a href="{{ '/str3/' | relative_url }}">Str 3</a></li>
+</ul>
+</div>
 
-***Nie możesz znaleźć ciekawostki o interesującym Ciebie państwie lub regionie?
-Napisz do nas: geociekawe@gmail.com***
+<div class="box">
+<h2>Przykładowy opis</h2>
+<p>
+Szablon strony do projektu
+</p>
+</div>
