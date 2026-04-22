@@ -1,9 +1,10 @@
-title: Ciekawostki o świecie
+title: Szablon
+description: Szablon strony w GitHub Pages z własnym CSS
 theme: minima
 
 minima:
   nav_pages:
-    - panstwa.md
     - index.md
-    - ciekawostka-dnia.md
-    - o-nas.md
+    - str1.md
+    - str2.md
+    - str3.md
